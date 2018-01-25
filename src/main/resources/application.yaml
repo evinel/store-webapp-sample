@@ -29,14 +29,6 @@ jpa:
         hibernate.cache.use_query_cache: true
         hibernate.hbm2ddl.auto: update
 
-security:
-  users:
-    demo: demo
-  web:
-    urls:
-      -
-        pattern: /**
-        filters: authcBasic
 
 web:
   server<heroku>: ${env.PORT}

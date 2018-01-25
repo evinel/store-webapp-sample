@@ -53,26 +53,22 @@
     "home": {
       "templateUrl": "{store-management}/views/home.html",
       "category": "admin",
-      "hidden": true,
-      "security": "isAuthenticated()"
+      "hidden": true
     },
     "customers": {
       "templateUrl": "{store-management}/views/customers-management.html",
       "controller": "CustomersManagementController",
-      "category": "admin",
-      "security": "isAuthenticated()"
+      "category": "admin"
     },
     "products": {
       "templateUrl": "{store-management}/views/products-management.html",
       "controller": "ProductsManagementController",
-      "category": "admin",
-      "security": "isAuthenticated()"
+      "category": "admin"
     },
     "categories": {
       "templateUrl": "{store-management}/views/category-management.html",
       "controller": "CategoryManagementController",
-      "category": "admin",
-      "security": "isAuthenticated()"
+      "category": "admin"
     }
   }
 }
